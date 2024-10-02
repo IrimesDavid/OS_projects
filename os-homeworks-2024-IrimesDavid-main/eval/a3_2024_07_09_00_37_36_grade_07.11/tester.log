@@ -1,0 +1,226 @@
+[1;35mTesting ping...[0m
+[TESTER] received string 'HELLO'
+[TESTER] sending string 'ECHO'
+[TESTER] received string 'ECHO'
+[TESTER] received number 28253
+[TESTER] received string 'VARIANT'
+[TESTER] sending string 'EXIT'
+Test score: 10 / 10
+[1;35mTesting shm1...[0m
+[TESTER] received string 'HELLO'
+[TESTER] sending string 'CREATE_SHM'
+[TESTER] sending number 4475280
+[TESTER] received string 'CREATE_SHM'
+[TESTER] received string 'SUCCESS'
+[TESTER] sending string 'EXIT'
+Test score: 10 / 10
+[1;35mTesting shm_write...[0m
+[TESTER] received string 'HELLO'
+[TESTER] sending string 'CREATE_SHM'
+[TESTER] sending number 4475280
+[TESTER] received string 'CREATE_SHM'
+[TESTER] received string 'SUCCESS'
+[TESTER] sending string 'WRITE_TO_SHM'
+[TESTER] sending number 13545
+[TESTER] sending number 12456704
+[TESTER] received string 'WRITE_TO_SHM'
+[TESTER] received string 'SUCCESS'
+[TESTER] sending string 'WRITE_TO_SHM'
+[TESTER] sending number 4475278
+[TESTER] sending number 305419896
+[TESTER] received string 'WRITE_TO_SHM'
+[TESTER] received string 'ERROR'
+[TESTER] sending string 'EXIT'
+Test score: 10 / 10
+[1;35mTesting map_inexistent...[0m
+[TESTER] received string 'HELLO'
+[TESTER] sending string 'MAP_FILE'
+[TESTER] sending string 'test_root/Lv23GdmAJUU3.wrs'
+[TESTER] received string 'MAP_FILE'
+[TESTER] received string 'ERROR'
+[TESTER] sending string 'EXIT'
+Test score: 5 / 5
+[1;35mTesting map1...[0m
+[TESTER] received string 'HELLO'
+[TESTER] sending string 'MAP_FILE'
+[TESTER] sending string 'test_root/8XQAjDyFYn.B6p'
+[TESTER] received string 'MAP_FILE'
+[TESTER] received string 'SUCCESS'
+[TESTER] sending string 'EXIT'
+Test score: 5 / 5
+[1;35mTesting read_offset...[0m
+[TESTER] received string 'HELLO'
+[TESTER] sending string 'CREATE_SHM'
+[TESTER] sending number 4475280
+[TESTER] received string 'CREATE_SHM'
+[TESTER] received string 'SUCCESS'
+[TESTER] sending string 'MAP_FILE'
+[TESTER] sending string 'test_root/8XQAjDyFYn.B6p'
+[TESTER] received string 'MAP_FILE'
+[TESTER] received string 'SUCCESS'
+[TESTER] sending string 'READ_FROM_FILE_OFFSET'
+[TESTER] sending number 68186
+[TESTER] sending number 50
+[TESTER] received string 'READ_FROM_FILE_OFFSET'
+[TESTER] received string 'ERROR'
+[TESTER] sending string 'READ_FROM_FILE_OFFSET'
+[TESTER] sending number 34092
+[TESTER] sending number 50
+[TESTER] sending string 'EXIT'
+Test score: 5 / 10
+[1;35mTesting read_section...[0m
+[TESTER] received string 'HELLO'
+[TESTER] sending string 'CREATE_SHM'
+[TESTER] sending number 4475280
+[TESTER] received string 'CREATE_SHM'
+[TESTER] received string 'SUCCESS'
+[TESTER] sending string 'MAP_FILE'
+[TESTER] sending string 'test_root/BRTcCLaPSj.lcK'
+[TESTER] received string 'MAP_FILE'
+[TESTER] received string 'SUCCESS'
+[TESTER] sending string 'READ_FROM_FILE_SECTION'
+[TESTER] sending number 14
+[TESTER] sending number 0
+[TESTER] sending number 100
+[TESTER] received string 'READ_FROM_FILE_SECTION'
+[TESTER] received string 'ERROR'
+[TESTER] sending string 'READ_FROM_FILE_SECTION'
+[TESTER] sending number 3
+[TESTER] sending number 693
+[TESTER] sending number 48
+[TESTER] sending string 'EXIT'
+[TESTER] read system call detected on file b'"test_root/BRTcCLaPSj.lcK"'
+Test score: 2 / 10
+[1;35mTesting read_logical...[0m
+[TESTER] received string 'HELLO'
+[TESTER] sending string 'CREATE_SHM'
+[TESTER] sending number 4475280
+[TESTER] received string 'CREATE_SHM'
+[TESTER] received string 'SUCCESS'
+[TESTER] sending string 'MAP_FILE'
+[TESTER] sending string 'test_root/Lzy6B9iNhp.L1r'
+[TESTER] received string 'MAP_FILE'
+[TESTER] received string 'SUCCESS'
+[TESTER] sending string 'READ_FROM_LOGICAL_SPACE_OFFSET'
+[TESTER] sending number 1645
+[TESTER] sending number 136
+[TESTER] received string 'READ_FROM_LOGICAL_SPACE_OFFSET'
+[TESTER] received string 'ERROR'
+[TESTER] sending string 'EXIT'
+Test score: 2 / 10
+
+Total score: 49 / 70
+Assignment grade: 71.14 / 100
+[1;35mTesting ping...[0m
+[TESTER] received string 'HELLO'
+[TESTER] sending string 'ECHO'
+[TESTER] received string 'ECHO'
+[TESTER] received number 28253
+[TESTER] received string 'VARIANT'
+[TESTER] sending string 'EXIT'
+Test score: 10 / 10
+[1;35mTesting shm1...[0m
+[TESTER] received string 'HELLO'
+[TESTER] sending string 'CREATE_SHM'
+[TESTER] sending number 4475280
+[TESTER] received string 'CREATE_SHM'
+[TESTER] received string 'SUCCESS'
+[TESTER] sending string 'EXIT'
+Test score: 10 / 10
+[1;35mTesting shm_write...[0m
+[TESTER] received string 'HELLO'
+[TESTER] sending string 'CREATE_SHM'
+[TESTER] sending number 4475280
+[TESTER] received string 'CREATE_SHM'
+[TESTER] received string 'SUCCESS'
+[TESTER] sending string 'WRITE_TO_SHM'
+[TESTER] sending number 13545
+[TESTER] sending number 12456704
+[TESTER] received string 'WRITE_TO_SHM'
+[TESTER] received string 'SUCCESS'
+[TESTER] sending string 'WRITE_TO_SHM'
+[TESTER] sending number 4475278
+[TESTER] sending number 305419896
+[TESTER] received string 'WRITE_TO_SHM'
+[TESTER] received string 'ERROR'
+[TESTER] sending string 'EXIT'
+Test score: 10 / 10
+[1;35mTesting map_inexistent...[0m
+[TESTER] received string 'HELLO'
+[TESTER] sending string 'MAP_FILE'
+[TESTER] sending string 'test_root/Lv23GdmAJUU3.wrs'
+[TESTER] received string 'MAP_FILE'
+[TESTER] received string 'ERROR'
+[TESTER] sending string 'EXIT'
+Test score: 5 / 5
+[1;35mTesting map1...[0m
+[TESTER] received string 'HELLO'
+[TESTER] sending string 'MAP_FILE'
+[TESTER] sending string 'test_root/8XQAjDyFYn.B6p'
+[TESTER] received string 'MAP_FILE'
+[TESTER] received string 'SUCCESS'
+[TESTER] sending string 'EXIT'
+Test score: 5 / 5
+[1;35mTesting read_offset...[0m
+[TESTER] received string 'HELLO'
+[TESTER] sending string 'CREATE_SHM'
+[TESTER] sending number 4475280
+[TESTER] received string 'CREATE_SHM'
+[TESTER] received string 'SUCCESS'
+[TESTER] sending string 'MAP_FILE'
+[TESTER] sending string 'test_root/8XQAjDyFYn.B6p'
+[TESTER] received string 'MAP_FILE'
+[TESTER] received string 'SUCCESS'
+[TESTER] sending string 'READ_FROM_FILE_OFFSET'
+[TESTER] sending number 68186
+[TESTER] sending number 50
+[TESTER] received string 'READ_FROM_FILE_OFFSET'
+[TESTER] received string 'ERROR'
+[TESTER] sending string 'READ_FROM_FILE_OFFSET'
+[TESTER] sending number 34092
+[TESTER] sending number 50
+[TESTER] sending string 'EXIT'
+Test score: 5 / 10
+[1;35mTesting read_section...[0m
+[TESTER] received string 'HELLO'
+[TESTER] sending string 'CREATE_SHM'
+[TESTER] sending number 4475280
+[TESTER] received string 'CREATE_SHM'
+[TESTER] received string 'SUCCESS'
+[TESTER] sending string 'MAP_FILE'
+[TESTER] sending string 'test_root/BRTcCLaPSj.lcK'
+[TESTER] received string 'MAP_FILE'
+[TESTER] received string 'SUCCESS'
+[TESTER] sending string 'READ_FROM_FILE_SECTION'
+[TESTER] sending number 14
+[TESTER] sending number 0
+[TESTER] sending number 100
+[TESTER] received string 'READ_FROM_FILE_SECTION'
+[TESTER] received string 'ERROR'
+[TESTER] sending string 'READ_FROM_FILE_SECTION'
+[TESTER] sending number 3
+[TESTER] sending number 693
+[TESTER] sending number 48
+[TESTER] sending string 'EXIT'
+[TESTER] read system call detected on file b'"test_root/BRTcCLaPSj.lcK"'
+Test score: 2 / 10
+[1;35mTesting read_logical...[0m
+[TESTER] received string 'HELLO'
+[TESTER] sending string 'CREATE_SHM'
+[TESTER] sending number 4475280
+[TESTER] received string 'CREATE_SHM'
+[TESTER] received string 'SUCCESS'
+[TESTER] sending string 'MAP_FILE'
+[TESTER] sending string 'test_root/Lzy6B9iNhp.L1r'
+[TESTER] received string 'MAP_FILE'
+[TESTER] received string 'SUCCESS'
+[TESTER] sending string 'READ_FROM_LOGICAL_SPACE_OFFSET'
+[TESTER] sending number 1645
+[TESTER] sending number 136
+[TESTER] received string 'READ_FROM_LOGICAL_SPACE_OFFSET'
+[TESTER] received string 'ERROR'
+[TESTER] sending string 'EXIT'
+Test score: 2 / 10
+
+Total score: 49 / 70
+Assignment grade: 71.14 / 100
